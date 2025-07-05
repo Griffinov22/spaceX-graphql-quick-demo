@@ -13,7 +13,7 @@ const LaunchList = () => {
 
   return (
     <>
-      <h1>SpaceX Launches</h1>
+      <h1>SpaceX Launch List</h1>
       <LaunchUL>
         {data.launches &&
           data.launches.map((launch) => {
